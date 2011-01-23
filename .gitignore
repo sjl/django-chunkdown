@@ -1,2 +1,7 @@
 *.swp
 .svn
+
+*.pyc
+*.un~
+
+*.egg-info

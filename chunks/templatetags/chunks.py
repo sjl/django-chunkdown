@@ -35,7 +35,7 @@ class ChunkNode(template.Node):
             if c is None:
                 c = Chunk.objects.get(key=self.key)
                 cache.set(cache_key, c, int(self.cache_time))
-            content = c.content
+            content = c.content_rendered
         except Chunk.DoesNotExist:
             content = ''
         return content

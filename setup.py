@@ -14,4 +14,5 @@ setup(name='chunks',
                    'Operating System :: OS Independent',
                    'Programming Language :: Python',
                    'Topic :: Utilities'],
+      install_requires=['markdown']
       )
